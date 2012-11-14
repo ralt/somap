@@ -1,0 +1,39 @@
+{
+  "name": "somap",
+  "description": "Map of SO chat users.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Ralt/somap",
+  "author": {
+    "name": "Florian Margaine",
+    "email": "florian@margaine.com",
+    "url": "http://margaine.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ralt/somap"
+  },
+  "dependencies": {
+    "restify": "1.4.x",
+    "mongoose": "3.4.x"
+  },
+  "bugs": {
+    "url": "https://github.com/Ralt/somap/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Ralt/somap/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/somap",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": []
+}
